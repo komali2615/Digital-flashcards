@@ -78,3 +78,6 @@ digital-flashcards/
 
 ### Flashcard Review
 ![Flashcard Review](./flashcard-review.png)
+Create a `.env` file inside the `backend` folder:
+
+MONGO_URI=your_mongodb_connection_string
