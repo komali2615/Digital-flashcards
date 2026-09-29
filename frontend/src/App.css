@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.header p {
+  font-size: 17px;
+  opacity: 0.9;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 35px auto;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.welcome h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.decks h2 {
+  margin-bottom: 20px;
+}
+
+.deck-card {
+  background: white;
+  padding: 22px;
+  margin-bottom: 18px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.deck-card h3 {
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.deck-card p {
+  margin-bottom: 15px;
+  color: #6b7280;
+}
+
+button {
+  border: none;
+  background: #4f46e5;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #3730a3;
+}
+
+.create-btn {
+  margin-top: 10px;
+  background: #059669;
+}
+
+.create-btn:hover {
+  background: #047857;
+}
+
+.create-form {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.deck-page,
+.study-section {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.deck-page h2,
+.study-section h2 {
+  margin: 20px 0 10px;
+}
+
+.card-form {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 12px;
+}
+
+.card-form h3 {
+  margin-bottom: 15px;
+}
+
+.card-list {
+  margin-top: 30px;
+}
+
+.flashcard-item {
+  background: #f9fafb;
+  padding: 18px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border-left: 5px solid #4f46e5;
+}
+
+.flashcard-item strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.study-section {
+  text-align: center;
+}
+
+.study-card {
+  max-width: 650px;
+  min-height: 280px;
+  margin: 30px auto;
+  padding: 50px 30px;
+  background: linear-gradient(135deg, #eef2ff, #f5f3ff);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.study-card span {
+  color: #4f46e5;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.study-card h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.rating-buttons button:nth-child(1) {
+  background: #dc2626;
+}
+
+.rating-buttons button:nth-child(2) {
+  background: #d97706;
+}
+
+.rating-buttons button:nth-child(3) {
+  background: #059669;
+}
+
+.rating-buttons button:nth-child(4) {
+  background: #2563eb;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .container {
+    width: 94%;
+  }
+
+  .deck-page,
+  .study-section {
+    padding: 20px;
+  }
+
+  .study-card h2 {
+    font-size: 22px;
+  }
+}
