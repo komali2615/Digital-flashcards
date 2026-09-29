@@ -71,3 +71,10 @@ digital-flashcards/
 │   └── vite.config.js
 │
 └── README.md
+## 📸 Screenshots
+
+### Dashboard
+![Digital Flashcards Dashboard](./dashboard.png)
+
+### Flashcard Review
+![Flashcard Review](./flashcard-review.png)
