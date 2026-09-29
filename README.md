@@ -60,7 +60,7 @@ digital-flashcards/
 │   │   └── Deck.js
 │   ├── server.js
 │   ├── package.json
-│   └── .env
+│
 │
 ├── frontend/
 │   ├── src/
